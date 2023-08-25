@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+let player1 = "Mark";
+let player2 = "George";
+
+let Rock = "Rock";
+let Paper= "Paper"
+let Scissors = "Scissors"
+
+
+let play1 = prompt( "Mark! Rock,Paper,Scissors?");
+
+let play2 = prompt("George! Rock,Paper,Scissors?");
+
+ /* if(play1 = Rock  && play2 ==Scissors ) {
+    document.write( Rock  + "" + "wins");
+}
+
+else if( play1=Scissors && play2 == Rock){
+    document.write( Rock + "" + "wins");
+}    
+
+else if( play1=Scissors && play2 == Scissors){
+    document.write(  "" + "It is a draw. Play Again");
+}    
+
+else if( play1=Rock || play2 == Rock){
+    document.write(  "" + "It is a draw. Play Again");
+}    
+ */
+if( play1=Rock && play2 == Paper){
+    document.write( Paper + "" + "wins");
+}    
+
+else if( play1=Paper && play2 == Rock){
+    document.write( Paper + "" + "wins");
+}    
+
+
+else if( play1=Paper && play2 == Paper){
+    document.write(  "" + "It is a draw. Play Again");
+}    
+ 
+else if( play1=Scissors && play2 == Paper){
+    document.write( Scissors + "" + "wins");    
+    
+   // play1.reset() &&  play2.reset()
+} 
+
+
+else if( play1=Paper && play2 == Scissors){
+    document.write( Scissors + "" + "wins");
+}    
+
+
+/* else if( play1=Rock && play2 == Scissors){
+    document.write( Rock + "" + "wins");
+}    
+
+else if( play1=Rock && play2 == Paper){
+    document.write( Paper + "" + "wins");
+}     */
+else {
+    document.write("Choose from the available 3");
+} 
+
+
+</script>
+</html>
